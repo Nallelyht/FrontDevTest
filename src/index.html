@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <nav class="deep-purple lighten-5">
+  <body class="deep-purple lighten-5">
+    <nav class="deep-purple lighten-5" id="nav-bar">
       <section class="container">
         <div class="nav-wrapper">
           <a href="#!" class="brand-logo">
-            <img class="responsive-img" src="assets/img/logo.png" alt="logo" />
+            <img class="responsive-img logo" src="assets/img/logo.png" alt="logo" />
           </a>
           <a href="#" data-activates="mobile-demo" class="button-collapse right">
             <i class="material-icons deep-purple-text">menu</i>
@@ -80,36 +80,36 @@
           <li>
             <img src="assets/img/libro.png" class="responsive-img"> <!-- random image -->
             <div class="caption center-align">
-              <h3>Facilitamos tu vida y la de tus empleados en un click.</h3> 
-              <h5>Somos una plataforma que brinda servicios para facilitar y proteger la relación con tu empleado del hogar.</h5>
+              <h1>Facilitamos tu vida y la de tus empleados en un click.</h1> 
+              <h4>Somos una plataforma que brinda servicios para facilitar y proteger la relación con tu empleado del hogar.</h4>
             </div>
           </li>
           <li>
-            <img src="assets/img/Comodidad-Plataforma.jpeg" class="responsive-img"> <!-- random image -->
-            <div class="caption right-align deep-purple-text text-darken-4">
-              <h3>Comodidad</h3>
-              <h5>Podrás pagarle a tu empleado con un click, a través de:</h5>
-              <h6>●	Pago electrónico desde nuestra plataforma</h6>
-            </div>
-          </li>
-          <li>
-            <img src="assets/img/Cobertura-Accidentes.jpg" class="responsive-img"> <!-- random image -->
-            <div class="caption right-align deep-purple-text text-darken-4">
-              <h3>Protección</h3>
-              <h5>Te protegemos ante cualquier problema que tengas con tu empleado, ofreciéndoles:</h5>
-              <h6>●	Seguro de accidentes</h6>
-              <h6>●	Recibo de pago</h6>
-              <h6>●	Asesoría legal y laboral</h6>
-            </div>
-          </li>
-          <li>
-            <img src="assets/img/Asistencia-Legal.jpeg" class="responsive-img"> <!-- random image -->
+            <img src="assets/img/comodidad_transp.png" class="responsive-img"> <!-- random image -->
             <div class="caption right-align">
-              <h3>Bienestar</h3>
-              <h5>Tienes la oportunidad de mejorar la vida de tu empleado con este paquete que incluye:</h5> 
-              <h6>●	Seguro de vida</h6>
-              <h6>●	Asistencia médica</h6>
-              <h6>●	Fondo de ahorro</h6>
+              <h2>Comodidad</h2>
+              <h4>Podrás pagarle a tu empleado con un click, a través de:</h4>
+              <h5>●	Pago electrónico desde nuestra plataforma</h5>
+            </div>
+          </li>
+          <li>
+            <img src="assets/img/cobertura_transp.png" class="responsive-img"> <!-- random image -->
+            <div class="caption right-aligncenter-align">
+              <h2>Protección</h2>
+              <h4>Te protegemos ante cualquier problema que tengas con tu empleado, ofreciéndoles:</h4>
+              <h5>●	Seguro de accidentes</h5>
+              <h5>●	Recibo de pago</h5>
+              <h5>●	Asesoría legal y laboral</h5>
+            </div>
+          </li>
+          <li>
+            <img src="assets/img/asistencia_transp.png" class="responsive-img"> <!-- random image -->
+            <div class="caption left-align">
+              <h2>Bienestar</h2>
+              <h4>Tienes la oportunidad de mejorar la vida de tu empleado con este paquete que incluye:</h4> 
+              <h5>●	Seguro de vida</h5>
+              <h5>●	Asistencia médica</h5>
+              <h5>●	Fondo de ahorro</h5>
             </div>
           </li>
         </ul>
@@ -118,8 +118,97 @@
     <section class="join-us">
       <img src="assets/img/imagen1.png" alt="imagen1" class="responsive-img" />
       <div class="row">
-        <div class="col s4 offset-s5">
-          <a href="#" class="btn waves-effect waves-light deep-purple btn-large">ÚNETE</a>
+        <div class="col s4 offset-s5 ">
+          <a href="#" class="btn waves-effect waves-light deep-purple btn-large join-1">ÚNETE</a>
+        </div>
+      </div>
+    </section>
+    <section class="benefits">
+      <div class="container">
+        <div class="row">
+          <div class="col s3">
+            <a href="#modal1" class="waves-effect waves-light modal-trigger hoverable">
+              <img src="assets/img/Pago-Electr%C3%B3nico_03.png" alt="pago" class="responsive-img">
+            </a>
+            <div id="modal1" class="modal light-blue accent-3">
+              <div class="modal-content white-text">
+                <h3>Pago Electrónico:</h3>
+                <ul>
+                  <li>
+                    <span>●	Ahora puedes pagarle a tu empleado electrónicamente con un click usando tu tarjeta de débito y crédito.</span>
+                  </li>
+                  <li>
+                    <span>●	Podrás descargar comprobantes de los pagos que realizas a tu empleado.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#modal2" class="waves-effect waves-light modal-trigger hoverable">
+              <img src="assets/img/Asesor%C3%ADaLegal_03.png" alt="asesoria" class="responsive-img" />
+            </a>
+            <div id="modal2" class="modal  orange lighten-1">
+              <div class="modal-content white-text">
+                <h3>Asesoría legal:</h3>
+                <ul>
+                  <li>
+                    <span>●	Realiza tus consultas legales en un chat con abogados especialistas y  obtén respuesta en menos de 48 horas.</span>
+                  </li>
+                  <li>
+                    <span>●	Ponemos a tu disposición un contrato que protege tu relación laboral.</span> 
+                  </li>
+                  <li> 
+                    <span>●	En caso de que tengas un problema legal con tu empleado te ayudamos.</span> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s6"><img src="assets/img/cajaylineas.png" alt="caja y lineas" class="responsive-img"></div>
+          <div class="col s3">
+            <a href="#modal3" class="waves-effect waves-light modal-trigger hoverable">
+              <img src="assets/img/Ahorro_03.png" alt="pago" class="responsive-img">
+            </a>
+            <div id="modal3" class="modal green accent-4">
+              <div class="modal-content white-text">
+                <h3>Ahorro:</h3> 
+                <ul>
+                  <li>
+                    <p> ●Si tu empleado no tiene Afore (fondo de ahorro) le abrimos una cuenta en la Afore de su preferencia para que pueda ahorrar una parte de su sueldo y así tenga un retiro digno.</p>
+                    <img src="assets/img/CONSAR.jpg" alt="consar" class="responsive-img">
+                  </li>
+                  <li>
+                    <span>●	También le abrimos una cuenta de ahorro para su vivienda y así pueda lograr su sueño de construir su casa. </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#modal4" class="waves-effect waves-light modal-trigger hoverable">
+              <img src="assets/img/Bienestar_03.png" alt="asesoria" class="responsive-img" />
+            </a>
+            <div id="modal4" class="modal  pink lighten-1">
+              <div class="modal-content white-text">
+                <h5>Para que tu empleado esté protegido en caso de accidente dentro y fuera del trabajo:</h5>
+                <ul>
+                  <li>
+                    <span>
+                      ●	Reembolso de gastos por accidente de tu empleado hasta por $ 20,000 pesos.</span>
+                  </li>
+                  <li>
+                    <span>
+                      ●	Seguro de vida para tu empleado.</span> 
+                  </li>
+                  <li> 
+                    <span>●	Ayuda con gastos de sepelio.</span> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 center-align">
+            <h4>Descarga más info con las condiciones y detalles generales del paquete <a href="assets/documents/textos.pdf" target="_blank" class="download">aquí</a></h4>
+          </div>
         </div>
       </div>
     </section>
@@ -127,8 +216,42 @@
       <img src="assets/img/imagen2.png" alt="imagen2" class="responsive-img" />
       <div class="row">
         <div class="col s4 offset-s5">
-          <a href="#" class="btn waves-effect waves-light deep-purple btn-large">ÚNETE</a>
+          <a href="#" class="btn waves-effect waves-light deep-purple btn-large join-2">ÚNETE</a>
         </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m8 offset-m2">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="https://dummyimage.com/200x200/000/fff">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <blockquote>“Adquirir esta membresía fue algo increíble. Hemos tenido la oportunidad de crear una relación más cercana y un ambiente de trabajo mucho más seguro para nuestra empleada doméstica. Ahora, tanto ella como nosotros nos sentimos protegidos ante cualquier imprevisto. ¡Gracias Comunidad 4uno!”
+                    <br>
+                    <small> 
+                      Paulina Rodríguez 
+                      Embajadora Social - Univ. Anáhuac Norte
+                    </small>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s10 offset-s1">
+          <h4 class="center-align">Ofrecemos diferentes formas de pago</h4>
+        </div>
+      </div>
+      <div class="fixed-action-btn">
+        <a class="btn-floating btn-large pink darken-1" href="#nav-bar">
+          <i class="large material-icons">add_shopping_cart</i>
+        </a>
       </div>
     </section>
     <footer class="grey darken-4 page-footer">
