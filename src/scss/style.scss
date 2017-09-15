@@ -1,0 +1,71 @@
+nav {
+  .logo{
+    width: 70%;
+    margin-top: 3%;
+  }
+  ul{
+    a{
+      color: #4527a0;
+    } 
+  } 
+}
+/*.header{
+background:  linear-gradient(
+rgba(69, 39, 160, 0.42),
+rgba(69, 39, 160, 0.42)
+), url(../assets/img/libro.png);
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+h1{
+font-family: 'Montserrat', sans-serif;
+}
+h3{
+font-family: 'Muli', sans-serif;
+}
+}*/
+.description{
+  h3{
+    font-family: 'Montserrat', sans-serif;
+  }
+  h5,h6{
+    font-family: 'Muli', sans-serif;
+  }
+  .slider .indicators .indicator-item.active {
+    background-color: #4527a0;
+  } 
+}
+
+.join-us{
+  position: relative;
+  img{
+    width: 100vw;
+    margin: 12rem 0;
+  }
+  .join-1{
+    position: absolute;
+    margin-top: -30%;
+  }
+  .join-2{
+    position: absolute;
+    margin-top: -40%
+  }
+}
+.benefits{
+  background-color: #EBEBEA;
+  padding: 7rem 0 5rem;
+  #modal3{
+    img{
+      width: 30%;
+      margin-left: 30%;
+    }
+  }
+  .download{
+    font-size: 4rem;
+    color: #000;
+  }
+}
